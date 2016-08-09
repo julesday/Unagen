@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>Sign Up Page</title>
+	
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<script type="" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/core.js"></script>
+	<script type="" href="js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="css/sign-up.css">
+	<script type="text/javascript" src="js/javascript.js"></script>
+</head>
+<body>
+	<div class="body-wrapper">
+	<div class="container-fluid">
+		<img src="img/logo.png">
+		<h2>Ungen</h2>
+		<form>
+			<div class="input">
+				<label for="firstname">First Name: </label><br><input type="text" name="firstname" id="firstname" required="required"placeholder="First Name"><br>
+			</div>
+			<div class="input">
+				<label for="lastname">Last Name: </label><br><input type="text" name="lastname" id="lastname" required="required" placeholder="Last Name"><br>
+			</div>
+			<div class="input">
+				<label for="password">Password: </label><br><input type="password" name="password" id="password" required="required"placeholder="Password"><br>
+			</div>
+			<div class="input">
+				<label for="password2">Confirm Password: </label><br><input type="password" name="password2" id="password2" placeholder="Confirm Password" required="required" onkeyup="checkPass(); return false;"><br>
+			</div>
+			<div class="input">
+				<label for+"email">Email: </label><br><input type="text" name="email" id="email" placeholder="Email"><br>
+			</div>
+			<div class="input">
+				<label for="phone">Phone: </label><br><input type="text" name="phone" id="phone" placeholder="Phone"><br>
+			</div>
+			<div class="input">
+			<label for="select-language">Language</label><br>
+				<select name="Language" id="select-language">
+					<option value="English">English</option>
+					<option value="Spanish">Espanol</option>
+					<option value="Chinese">中文</option>
+				</select>
+			</div>
+			<div class="input">
+				<label for="address">Address: </label><br><input type="text" name="address" id="address" placeholder="Address"><br>
+			</div>
+			<div class="input">
+				<label for="city">City: </label><br><input type="text" name="city" id="city" placeholder="City"><br>
+			</div>
+			<div class="input">
+				<label for="zipcode">Zip code: </label><br><input type="text" name="zipcode" id="zipcode" placeholder="Zip ">
+			</div>
+			
+		</form>
+			<div class="btn-submit">	
+				<a href="choose-service.html"><button>SUBMIT</button></a>
+			</div>
+	</div>
+</body>
+</html>
+
+
