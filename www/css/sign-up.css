@@ -1,0 +1,36 @@
+.container-fluid{
+	padding-bottom: 15px;
+	text-align: center;
+	margin-top: 0px;
+	background: none;
+}
+
+.container-inner{
+	padding-top: 100px;
+	background: rgba(28, 42, 55, 0.7);
+}
+.input input {
+	height: 30px;
+	width: 60%;
+	font-size: 15px;
+	margin-bottom: 13px;
+	background-color: #fff;
+	padding-left: 10px;
+}
+
+#select-language{
+	height: 30px;
+	width: 60%;
+	font-size: 15px;
+	margin-bottom: 13px;
+	background-color: #fff;
+	padding-left: 10px;
+}
+
+.btn-primary{
+	padding: 15px 25px;
+}
+
+label, h2{
+	color: #fff;
+}
