@@ -2,7 +2,12 @@
 	margin: 0 auto;	
 	width:auto;
 	height:100%;
-	margin-top:42px;
+	margin-top: 0px;
+}
+
+.container{
+		width:auto !important;
+
 }
 
 body{
@@ -24,7 +29,7 @@ html{
 }
 
 .container-fluid{
-	padding-top:100px;
+	padding-top:115px;
 	width: 80%;
 	background-color: #33ccff;
 	border-radius: 4px;
@@ -38,5 +43,3 @@ html{
 	margin-top: -60px;
 	margin-bottom: 2px;
 }
-
-
