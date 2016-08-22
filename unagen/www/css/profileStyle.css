@@ -1,0 +1,18 @@
+Body{
+	Background: #00688B;
+	Text-align: center;
+}
+img{
+	Height: 195px;
+	Width: 195px;
+}
+p{
+	Color: white;
+	Font-Size: 45px;
+}
+.description{
+	font-size:24px;
+}
+.span-link{
+	Font-size:24px;
+}

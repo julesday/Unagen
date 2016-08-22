@@ -1,0 +1,167 @@
+﻿added new files
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   ../js/choose_translation.js
+#	new file:   Choose-Translation.css
+#	new file:   Choose-Translation.html
+#	new file:   Connection(Text-side).html
+#	new file:   Connection(Text-side).js
+#	new file:   ProfileStyle.css
+#	new file:   Reference.html
+#	new file:   SMS-Connection_Twilio_Info.txt
+#	new file:   Translator Profile(Michael Reyes).html
+#	new file:   TranslatorPage.html
+#	new file:   choose-service.html
+#	new file:   homescreen.html
+#	new file:   icon.png
+#	new file:   index.html
+#	new file:   sign-up.html
+#	new file:   spec.html
+#
+# Changes not staged for commit:
+#	deleted:    ../js/choose_translation.js
+#	deleted:    Choose-Translation.css
+#	deleted:    Choose-Translation.html
+#	deleted:    Connection(Text-side).html
+#	deleted:    Connection(Text-side).js
+#	deleted:    ProfileStyle.css
+#	deleted:    Translator Profile(Michael Reyes).html
+#	modified:   TranslatorPage.html
+#	deleted:    choose-service.html
+#	modified:   homescreen.html
+#	deleted:    sign-up.html
+#	deleted:    ../../../www/Reference.html
+#	deleted:    ../../../www/Translator Page.html
+#	deleted:    ../../../www/choose-service.html
+#	deleted:    ../../../www/css/Homescreen.css
+#	deleted:    ../../../www/css/TranslatorStyle.css
+#	deleted:    ../../../www/css/bootstrap-theme.css
+#	deleted:    ../../../www/css/bootstrap-theme.css.map
+#	deleted:    ../../../www/css/bootstrap-theme.min.css
+#	deleted:    ../../../www/css/bootstrap-theme.min.css.map
+#	deleted:    ../../../www/css/bootstrap.css
+#	deleted:    ../../../www/css/bootstrap.css.map
+#	deleted:    ../../../www/css/bootstrap.min.css
+#	deleted:    ../../../www/css/bootstrap.min.css.map
+#	deleted:    ../../../www/css/choose-service.css
+#	deleted:    ../../../www/css/hamburger.css
+#	deleted:    ../../../www/css/index.css
+#	deleted:    ../../../www/css/sign-in.css
+#	deleted:    ../../../www/css/sign-up.css
+#	deleted:    ../../../www/css/slicknav.css
+#	deleted:    ../../../www/css/slicknav.min.css
+#	deleted:    ../../../www/homescreen.html
+#	deleted:    ../../../www/icon.png
+#	deleted:    ../../../www/img/logo.png
+#	deleted:    ../../../www/img/paper.jpg
+#	deleted:    ../../../www/img/planet.jpg
+#	deleted:    ../../../www/index.html
+#	deleted:    ../../../www/js/bootstrap.js
+#	deleted:    ../../../www/js/bootstrap.min.js
+#	deleted:    ../../../www/js/hamburger.js
+#	deleted:    ../../../www/js/index.js
+#	deleted:    ../../../www/js/javascript.js
+#	deleted:    ../../../www/js/jquery.slicknav.js
+#	deleted:    ../../../www/js/jquery.slicknav.min.js
+#	deleted:    ../../../www/js/npm.js
+#	deleted:    ../../../www/res/.pgbomit
+#	deleted:    ../../../www/res/icon/android/drawable-hdpi-icon.png
+#	deleted:    ../../../www/res/icon/android/drawable-ldpi-icon.png
+#	deleted:    ../../../www/res/icon/android/drawable-mdpi-icon.png
+#	deleted:    ../../../www/res/icon/android/drawable-xhdpi-icon.png
+#	deleted:    ../../../www/res/icon/android/drawable-xxhdpi-icon.png
+#	deleted:    ../../../www/res/icon/android/drawable-xxxhdpi-icon.png
+#	deleted:    ../../../www/res/icon/ios/icon-40.png
+#	deleted:    ../../../www/res/icon/ios/icon-40@2x.png
+#	deleted:    ../../../www/res/icon/ios/icon-50.png
+#	deleted:    ../../../www/res/icon/ios/icon-50@2x.png
+#	deleted:    ../../../www/res/icon/ios/icon-60.png
+#	deleted:    ../../../www/res/icon/ios/icon-60@2x.png
+#	deleted:    ../../../www/res/icon/ios/icon-60@3x.png
+#	deleted:    ../../../www/res/icon/ios/icon-72.png
+#	deleted:    ../../../www/res/icon/ios/icon-72@2x.png
+#	deleted:    ../../../www/res/icon/ios/icon-76.png
+#	deleted:    ../../../www/res/icon/ios/icon-76@2x.png
+#	deleted:    ../../../www/res/icon/ios/icon-small.png
+#	deleted:    ../../../www/res/icon/ios/icon-small@2x.png
+#	deleted:    ../../../www/res/icon/ios/icon-small@3x.png
+#	deleted:    ../../../www/res/icon/ios/icon.png
+#	deleted:    ../../../www/res/icon/ios/icon@2x.png
+#	deleted:    ../../../www/res/icon/windows/Square150x150Logo.scale-100.png
+#	deleted:    ../../../www/res/icon/windows/Square150x150Logo.scale-240.png
+#	deleted:    ../../../www/res/icon/windows/Square30x30Logo.scale-100.png
+#	deleted:    ../../../www/res/icon/windows/Square310x310Logo.scale-100.png
+#	deleted:    ../../../www/res/icon/windows/Square44x44Logo.scale-100.png
+#	deleted:    ../../../www/res/icon/windows/Square44x44Logo.scale-240.png
+#	deleted:    ../../../www/res/icon/windows/Square70x70Logo.scale-100.png
+#	deleted:    ../../../www/res/icon/windows/Square71x71Logo.scale-100.png
+#	deleted:    ../../../www/res/icon/windows/Square71x71Logo.scale-240.png
+#	deleted:    ../../../www/res/icon/windows/StoreLogo.scale-100.png
+#	deleted:    ../../../www/res/icon/windows/StoreLogo.scale-240.png
+#	deleted:    ../../../www/res/icon/windows/Wide310x150Logo.scale-100.png
+#	deleted:    ../../../www/res/icon/windows/Wide310x150Logo.scale-240.png
+#	deleted:    ../../../www/res/icon/wp8/ApplicationIcon.png
+#	deleted:    ../../../www/res/icon/wp8/Background.png
+#	deleted:    ../../../www/res/screen/android/drawable-land-hdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-land-ldpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-land-mdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-land-xhdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-land-xxhdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-land-xxxhdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-port-hdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-port-ldpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-port-mdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-port-xhdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-port-xxhdpi-screen.png
+#	deleted:    ../../../www/res/screen/android/drawable-port-xxxhdpi-screen.png
+#	deleted:    ../../../www/res/screen/ios/Default-568h@2x~iphone.png
+#	deleted:    ../../../www/res/screen/ios/Default-667h.png
+#	deleted:    ../../../www/res/screen/ios/Default-736h.png
+#	deleted:    ../../../www/res/screen/ios/Default-Landscape-736h.png
+#	deleted:    ../../../www/res/screen/ios/Default-Landscape@2x~ipad.png
+#	deleted:    ../../../www/res/screen/ios/Default-Landscape~ipad.png
+#	deleted:    ../../../www/res/screen/ios/Default-Portrait@2x~ipad.png
+#	deleted:    ../../../www/res/screen/ios/Default-Portrait~ipad.png
+#	deleted:    ../../../www/res/screen/ios/Default@2x~iphone.png
+#	deleted:    ../../../www/res/screen/ios/Default~iphone.png
+#	deleted:    ../../../www/res/screen/windows/SplashScreen.scale-100.png
+#	deleted:    ../../../www/res/screen/windows/SplashScreenPhone.scale-240.png
+#	deleted:    ../../../www/res/screen/wp8/screen-portrait.jpg
+#	deleted:    ../../../www/sign-up.html
+#	deleted:    ../../../www/spec.html
+#	deleted:    ../../../www/spec/helper.js
+#	deleted:    ../../../www/spec/index.js
+#	deleted:    ../../../www/spec/lib/jasmine-1.2.0/MIT.LICENSE
+#	deleted:    ../../../www/spec/lib/jasmine-1.2.0/jasmine-html.js
+#	deleted:    ../../../www/spec/lib/jasmine-1.2.0/jasmine.css
+#	deleted:    ../../../www/spec/lib/jasmine-1.2.0/jasmine.js
+#
+# Untracked files:
+#	../../../js/
+#	../css/
+#	../img/
+#	../js/bootstrap.js
+#	../js/bootstrap.min.js
+#	../js/chooseTranslation (2).js
+#	../js/chooseTranslation.js
+#	../js/connectionTextSide.js
+#	../js/hamburger.js
+#	../js/index.js
+#	../js/javascript.js
+#	../js/jquery-3.1.0.min.js
+#	../js/jquery.slicknav.js
+#	../js/jquery.slicknav.min.js
+#	../js/npm.js
+#	../js/translatorPage
+#	../js/translatorPage.js
+#	chooseService.html
+#	chooseTranslation.html
+#	connectionTextSide.html
+#	signUp.html
+#	translatorProfileMichealReyes.html
+#
+
