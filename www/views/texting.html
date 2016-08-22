@@ -1,55 +1,57 @@
+<!--TODO: remove duplicate ID-->
+<!--TODO: fix link tags-->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Texting</title>
-		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
-		<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-		<script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<link rel="stylesheet" href="css/slicknav.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css"/>
-		<script type="text/javascript" src="js/hamburger.js"></script>
-		<link rel="stylesheet" type="text/css" href="css/hamburger.css"></link>
-		<script src="js/jquery.slicknav.js"></script>
-		<link rel="stylesheet" type="text/css" href="texting.css"/>
-		<script src="js/texting.js"></script>
-	</head>
-	<body>
-		<header>
-			<ul id="menu">
-				<li><a href="#">menuitem 1</a></li>
-				<li><a href="#">menuitem 2</a></li>
-				<li><a href="#">menuitem 3</a></li>
-				<li><a href="#">menuitem 4</a></li>
-				<li><a href="#">menuitem 5</a></li>
-				<li><a href="#">menuitem 6</a></li>
-			</ul>
-		</header>
-		<div id="contentLayer"></div>
-			<div class="body-wrapper">
-				<div class="container-fluid">
-					<div class="container-inner">
-					<img src="img/logo.png"/>
-					<h2>Unagen</h2>
-				<div id="wrapper">
-    <div id="menu">
-        <p class="welcome">Welcome, <b></b></p>
-        <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
-        <div style="clear:both"></div>
+<head>
+    <title>Texting</title>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"></link>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/slicknav.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <script type="text/javascript" src="js/hamburger.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/hamburger.css"></link>
+    <script src="js/jquery.slicknav.js"></script>
+    <link rel="stylesheet" type="text/css" href="texting.css"/>
+    <script src="js/texting.js"></script>
+</head>
+<body>
+<header>
+    <ul id="menu">
+        <li><a href="#">menuitem 1</a></li>
+        <li><a href="#">menuitem 2</a></li>
+        <li><a href="#">menuitem 3</a></li>
+        <li><a href="#">menuitem 4</a></li>
+        <li><a href="#">menuitem 5</a></li>
+        <li><a href="#">menuitem 6</a></li>
+    </ul>
+</header>
+<div id="contentLayer"></div>
+<div class="body-wrapper">
+    <div class="container-fluid">
+        <div class="container-inner">
+            <img src="img/logo.png"/>
+            <h2>Unagen</h2>
+            <div id="wrapper">
+                <div id="menu">
+                    <p class="welcome">Welcome, <b></b></p>
+                    <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
+                    <div style="clear:both"></div>
+                </div>
+
+                <div id="chatbox"></div>
+
+                <form name="message" action="">
+                    <input name="usermsg" type="text" id="usermsg" size="63"/>
+
+                </form>
+                <button name="submitmsg" type="submit" id="submitmsg" value="Send">Send</button>
+            </div>
+        </div>
     </div>
-     
-    <div id="chatbox"></div>
-     
-    <form name="message" action="">
-        <input name="usermsg" type="text" id="usermsg" size="63" />
-        
-    </form>
-	<button name="submitmsg" type="submit"  id="submitmsg" value="Send">Send</button>
 </div>
-				</div>
-				</div>
-			</div>
-		
-	</body>
+
+</body>
 </html>

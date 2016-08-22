@@ -1,3 +1,4 @@
+// TODO: rename this file
 console.log("loaded!");
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
