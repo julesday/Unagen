@@ -2,6 +2,7 @@
 (function() {
 console.log("Hello, i work");
 var translatorList = [
+	"Translator Test",
 	"Andrew Ramirez",
 	"Kirk Floyd",
 	"Hamdan Jawad",
@@ -14,6 +15,7 @@ var translatorList = [
 	"Shanell Lastname",
 	"New Name",
 	"New Person"
+
 ];
 
 var imageSrcList = [
