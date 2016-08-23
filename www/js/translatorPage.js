@@ -1,5 +1,4 @@
 (function () {
-  console.log("Hello, i work");
   var translatorList = [
     "Translator Test",
     "Andrew Ramirez",
@@ -26,7 +25,6 @@
     "http://cliparts.co/cliparts/8Tx/4R9/8Tx4R9pTp.jpg",
     "http://cdn.litlepups.net/2016/04/19/small_drawings-art-drawings-of-birds-sparrow-drawings-drawing-ideas.jpg",
     "http://www.drawing-factory.com/wp-content/uploads/2014/12/simple-dragon-drawings-04.jpg",
-    "https://cdn.vectorstock.com/i/composite/14,01/a-simple-sketch-of-a-boy-reading-vector-2721401.jpg"
   ];
 
 
@@ -34,7 +32,6 @@
     var data = {};
     data.translatorName = translatorList[i];
     data.imgSrc = imageSrcList[Math.floor(Math.random() * imageSrcList.length) + 0];
-    console.log("img src: " + data.imgSrc);
     data.status = "online";
     data.link = "";
     appendName(data);
@@ -43,17 +40,13 @@
   function appendName(data) {
     $("#translatorList").append(
       '<div class="row">' +
-      '<div class="col-xs-4">' +
-      '<img src=' + data.imgSrc + '>' +
+      '<div class="col-xs-4 profilePic">' +
+      '<img class = "profilePic" src=' + data.imgSrc + '>' +
       '</div>' +
-      '<div class="col-xs-4">' +
+      '<div class="col-xs-4 name">' +
       '<a href=' + data.tranlatorLink + '>' + data.translatorName + '</a>' +
       '</div>' +
-      '<div class="col-xs-4>' +
-      data.status +
-      '</div>' +
-      '<div class="col-xs-4">' +
-      '</div>' +
+      '<div class="col-xs-4 status">' +
       data.status +
       '</div>'
     );

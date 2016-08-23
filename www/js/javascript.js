@@ -1,3 +1,4 @@
+// TODO: rename this file
 function checkPass()
 {
     //Store the password field objects into variables ...
