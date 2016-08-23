@@ -1,13 +1,8 @@
 /* TODO: fix selector attr */
 .body-wrapper{
-	Background-color: blue;
-	Background: white;
+    background: #ecf0f1;
 }
-img{
-	width:60px;
-	height:60px;
-	text-align: left
-}
+
 div{
 	font-size: 18px;
 }
@@ -16,4 +11,10 @@ div{
 	padding-bottom:15px;
 	border-bottom: 5px;
 	box-shadow: 0px 2px 3px #888888;
-} 
+}
+
+.profilePic {
+    margin-top: 10px;
+    height: 90%;
+    width: 80px;
+}
