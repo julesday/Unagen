@@ -1,7 +1,6 @@
-/* TODO: fix selector attr */
+
 .body-wrapper{
-	Background-color: blue;
-	Background: white;
+	background-color: white;
 }
 img{
 	width:60px;
