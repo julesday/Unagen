@@ -1,16 +1,3 @@
-.container-fluid{
-	height: 100%;
-	padding-bottom: 15px;
-	text-align: center;
-	margin-top: 0px;
-	background: none;
-}
-
-.container-inner{
-	padding-top: 100px;
-	background: rgba(28, 42, 55, 0.7);
-}
-
 .input input[type="text"],.input input[type="password"]{
 	height: 45px;
 	width: 50%;

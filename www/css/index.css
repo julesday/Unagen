@@ -1,13 +1,6 @@
-.body-wrapper{
-	margin: 0 auto;	
-	width:auto;
+html{
 	height:100%;
-	margin-top: 0px;
-}
-
-.container{
-		width:auto !important;
-
+	width:auto;
 }
 
 body{
@@ -22,19 +15,13 @@ body{
 	background-size: cover;
 }
 
-html{
-	
-	height:100%;
-	width:auto;
-}
-
 .container-fluid{
+	height: 100%;
 	padding-top:115px;
-	width: 80%;
-	background-color: #33ccff;
-	border-radius: 4px;
-	margin: 0 auto 0 auto;
-	background: rgba(28, 42, 55, 0.7);
+	padding-bottom: 15px;
+	text-align: center;
+	margin-top: 0px;
+	background: none;
 }
 
 .container-fluid img{

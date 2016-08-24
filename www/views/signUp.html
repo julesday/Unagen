@@ -1,36 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Sign Up Page</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.js"></script>
-    <link rel="stylesheet" href="../css/slicknav.css">
-    <link rel="stylesheet" type="text/css" href="../css/index.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/signUp.css"/>
-    <script type="text/javascript" src="../js/hamburger.js"></script>
-    <link rel="stylesheet" type="text/css" href="../css/hamburger.css" />
-    <script src="../js/jquery.slicknav.js"></script>
+    <title>Title</title>
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/app.css"/>
+    <script src="../js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/index.ss">
 </head>
 <body>
-    <header>
-        <ul id="menu">
-            <li><a href="#">menuitem 1</a></li>
-            <li><a href="#">menuitem 2</a></li>
-            <li><a href="#">menuitem 3</a></li>
-            <li><a href="#">menuitem 4</a></li>
-            <li><a href="#">menuitem 5</a></li>
-            <li><a href="#">menuitem 6</a></li>
-        </ul>
-    </header>
-    <div id="contentLayer"></div>
+    <!-- Nav start -->
+    <nav id="nav-bar" class="navbar navbar-fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand" data-toggle="collapse" data-target="#dropdown">UnaGen</a>
+        </div>
+    </nav>
+    <div id="dropdown" class="collapse">
+        <a href="#">
+            <div class="dropdown-option">Home</div>
+        </a>
+        <a href="#">
+            <div class="dropdown-option">Translators</div>
+        </a>
+        <a href="#">
+            <div class="dropdown-option">Texting</div>
+        </a>
+        <a href="#">
+            <div class="dropdown-option">Settings</div>
+        </a>
+        <a href="#">
+            <div class="dropdown-option">Contact Us</div>
+        </a>
+    </div>
+    <!-- Nav end -->
     <div class="container-fluid">
-        <img src="../img/unaGenLogo.png">
-        <h2>Unagen</h2>
-        <form>
+        <div class="container-fluid">
+           <!-- <img src="../img/unaGenLogo.png"> -->
+           <h2>Unagen</h2>
+           <form>
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-2">
@@ -72,33 +82,35 @@
                         <option value="Chinese">中文</option>
                     </select>
                 </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <label for="password">Password: </label>
-                    </div>
-                    <div class="col-md-8">
-                        <input type="password" name="password" id="password" required="required"
-                        placeholder="Password"><br>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label for="password">Password: </label>
                 </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <label for="password2">Confirm Password: </label>
-                    </div>
-                    <div class="col-md-8">
-                        <input type="password" name="password2" id="password2" placeholder="Confirm Password"
-                        required="required" onkeyup="checkPass(); return false;"><br>
-                    </div>
+                <div class="col-md-8">
+                    <input type="password" name="password" id="password" required="required"
+                    placeholder="Password"><br>
                 </div>
             </div>
-        </form>
-        <div class="btn-submit">
-            <a href="choose-service.html">
-                <button>SUBMIT</button>
-            </a>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label for="password2">Confirm Password: </label>
+                </div>
+                <div class="col-md-8">
+                    <input type="password" name="password2" id="password2" placeholder="Confirm Password"
+                    required="required" onkeyup="checkPass(); return false;"><br>
+                </div>
+            </div>
         </div>
+    </form>
+    <div class="btn-submit">
+        <a href="choose-service.html">
+            <button>SUBMIT</button>
+        </a>
     </div>
+</div>
+
 </body>
 </html>
