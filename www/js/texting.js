@@ -3,20 +3,17 @@ $(document).ready(function(){
 //If user submits the form
 	$("#submitmsg").click(function(){	
 		var clientmsg = $("#usermsg").val();
-		if(chat == "") {
-			chat += clientmsg;
-			if(clientmsg.includes ("hello")){
-				chat += "<br>"
-				chat += "bonjour"		
-			}	
-		}
-		else {
-			if(clientmsg.includes ("hello")){
-			
-		}
-			chat += "<br>"
-			chat += clientmsg;
-		}
+		
+
+		switch (clientmsg) {
+		case clientmsg == "hi": 
+		chat += "<br>"
+		chat += "clientmsg"
+		break;
+		case clientmsg == "umm": 
+		chat += "<br>"
+		chat += "clientmsg"
+}
 		
 		
 		$("#chatbox").html(chat);
@@ -25,6 +22,3 @@ $(document).ready(function(){
  
 });
 
-switch (chat) {
-	case chat == "hi" 
-}
