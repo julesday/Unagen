@@ -8,3 +8,6 @@ h2{
 .img{
 	padding-right: 60px;
 }
+.btn, .btn-primary{
+	text-align: center;
+}

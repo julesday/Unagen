@@ -33,7 +33,7 @@
     data.translatorName = translatorList[i];
     data.imgSrc = imageSrcList[Math.floor(Math.random() * imageSrcList.length) + 0];
     data.status = "online";
-    data.translatorLink = "translatorProfileMichealReyes.html";
+    data.translatorLink = "translatorProfile.html";
     appendName(data);
   }
 
