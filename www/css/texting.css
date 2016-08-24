@@ -13,7 +13,7 @@ body {
 form, p, span {
     margin:0;
     padding:0; 
-	color: #FFF;}
+	color: #000;}
   
 input { font:12px arial; }
   
@@ -23,12 +23,7 @@ a {
   
     a:hover { text-decoration:underline; }
   
-#wrapper, #loginform {
-    margin:0 auto;
-    padding-bottom:25px;
-    background: rgba(28, 42, 55, 1.0);
-    width:100%;
-     }
+
   
 #loginform { padding-top:18px; }
   
