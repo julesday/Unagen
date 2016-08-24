@@ -6,8 +6,9 @@ h2{
 	color: white;
 }
 .img{
-	padding-right: 60px;
+	padding: 60px;
 }
 .btn, .btn-primary{
 	text-align: center;
+	border: 20px;
 }
