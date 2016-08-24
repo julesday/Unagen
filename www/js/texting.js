@@ -24,3 +24,7 @@ $(document).ready(function(){
 	});
  
 });
+
+switch (chat) {
+	case chat == "hi" 
+}
