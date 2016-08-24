@@ -1,14 +1,16 @@
-body{
-	background-color: #00688B;
+.contain-fluid{
 	text-align: center;
+	padding:50px;
 }
 img{
 	height: 195px;
 	width: 195px;
+	align: center;
 }
 p{
-	color: white;
+	color: #2c3e50;
 	font-size: 45px;
+	text-align: center;
 }
 .description{
 	font-size:24px;
