@@ -1,27 +1,56 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/chooseTranslation.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Title</title>
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/app.css"/>
+    <script src="../js/app.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/chooseTranslation.js"></script>
-    <title>Choose Language</title>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="dropdown">
-    <button onclick="myFunction();" class="dropbtn">Dropdown</button>
-    <div id="myDropdown" class="dropdown-content">
-        <a href="#">Spanish</a>
-        <a href="#">English</a>
-        <a href="#">Bengali</a>
-        <a href="#">Greek</a>
-        <a href="#">Cantonese</a>
-        <a href="#">Italian</a>
-        <a href="#">Hebrew</a>
-        <a href="#">French</a>
-        <a href="#">Mandarin</a>
+<!-- Nav start -->
+<!-- <nav id="nav-bar" class="navbar navbar-fixed-top">
+    <div class="container">
+        <a href="#" class="navbar-brand" data-toggle="collapse" data-target="#dropdown">UnaGen</a>
     </div>
+</nav>
+<div id="dropdown" class="collapse">
+    <a href="#">
+        <div class="dropdown-option">Home</div>
+    </a>
+    <a href="#">
+        <div class="dropdown-option">Translators</div>
+    </a>
+    <a href="#">
+        <div class="dropdown-option">Texting</div>
+    </a>
+    <a href="#">
+        <div class="dropdown-option">Settings</div>
+    </a>
+    <a href="#">
+        <div class="dropdown-option">Contact Us</div>
+    </a>
+</div> -->
+<!-- Nav end -->
+<div class="container-fluid">
+ <h2>Choose Your Language</h2>
+  <p>Below please choose the language that you are trying to translate to.</p>
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose Language
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="translatorPage.html">Spanish</a></li>
+      <li><a href="translatorPage.html">French</a></li>
+      <li><a href="translatorPage.html">Chinese</a></li>
+    </ul>
+  </div>
 </div>
+
 </body>
 </html>
