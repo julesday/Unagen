@@ -1,9 +1,9 @@
-.contain-fluid{
+.container-fluid{
 	text-align: center;
 	padding:50px;
 }
 img{
-	height: 195px;
+	height: 155px;
 	width: 195px;
 	align: center;
 }
