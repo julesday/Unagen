@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
     <script src="js/jquery-3.1.0.min.js"></script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="css/signUp.css"/>
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="css/app.css"/>
     <script src="js/app.js"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/signUp.css"/>
 </head>
 <body>
     <!-- Nav start -->
@@ -38,9 +38,7 @@
     </div>
     <!-- Nav end -->
     <div class="container-fluid">
-          <div id="contentLayer"></div>
-    <div class="container-fluid">
-        <h2>Unagen</h2>
+        <img src="img/unaGenLogo.png">
         <form>
             <div class="row">
                 <div class="col-md-2"></div>
@@ -64,8 +62,7 @@
             <div class="row">
                 <div class="col-md-2"></div>
                 <div class="col-md-2">
-                    <!--TODO: fix this-->
-                    <label for+"email">Email: </label>
+                    <label for="email">Email: </label>
                 </div>
                 <div class="col-md-8">
                     <input type="text" name="email" id="email" placeholder="Email"><br>
@@ -83,25 +80,25 @@
                         <option value="Chinese">中文</option>
                     </select>
                 </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <label for="password">Password: </label>
-                    </div>
-                    <div class="col-md-8">
-                        <input type="password" name="password" id="password" required="required"
-                        placeholder="Password"><br>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label for="password">Password: </label>
                 </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <label for="password2">Confirm Password: </label>
-                    </div>
-                    <div class="col-md-8">
-                        <input type="password" name="password2" id="password2" placeholder="Confirm Password"
-                        required="required" onkeyup="checkPass(); return false;"><br>
-                    </div>
+                <div class="col-md-8">
+                    <input type="password" name="password" id="password" required="required"
+                    placeholder="Password"><br>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <label for="password2">Confirm Password: </label>
+                </div>
+                <div class="col-md-8">
+                    <input type="password" name="password2" id="password2" placeholder="Confirm Password"
+                    required="required" onkeyup="checkPass(); return false;"><br>
                 </div>
             </div>
         </form>

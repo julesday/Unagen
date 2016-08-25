@@ -1,7 +1,7 @@
 .input input[type="text"],.input input[type="password"]{
-	height: 45px;
-	width: 50%;
-	font-size: 15px;
+	height: 75px;
+	width: 70%;
+	font-size: 40px;
 	margin-bottom: 28px;
 	background-color: #fff;
 	padding-left: 3px;
@@ -19,4 +19,18 @@ h2{
 
 .input{
 	opacity: 1.0;
+}
+
+button{
+	width: 35%;
+	height: 50px;
+	font-size: 20px;
+}
+
+a{
+	font-size: 20px;
+}
+
+.container-fluid{
+	margin-top: 200px;
 }

@@ -1,4 +1,4 @@
-var chat = "Translator: Hi, My name is Aaron, How may I help you?";
+var chat = "<b>Translator:</b> Hi, My name is Aaron, How may I help you?";
 $(document).ready(function(){
 	$("#chatbox").html(chat);
 //If user submits the form
