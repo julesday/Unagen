@@ -1,32 +1,9 @@
-html{
-	height:100%;
-	width:auto;
-}
-
 body{
 	margin: 0 !important;
 	height:inherit;
 	width:inherit;
-	background: url("../img/planet.jpg") no-repeat center center fixed; 
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background: url("../img/planet.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-}
-
-.container-fluid{
-	height: 100%;
-	padding-top:115px;
-	padding-bottom: 15px;
-	text-align: center;
-	margin-top: 0px;
-	background: none;
-}
-
-.container-fluid img{
-	width: 600px;
-	height: 150px;
-	margin-top: -60px;
-	margin-bottom: 50px;
 }
