@@ -52,9 +52,16 @@ label, h2{
     width : 40%;
 }
 
+<<<<<<< HEAD
 #logo {
     height: 150px;
     width: 100%;
     padding-top: 50px;
     margin-bottom: 20px;
+=======
+
+
+.container-fluid img{
+	margin-top: 130px;
+>>>>>>> 12c5afdaf7f46003f67f7c6898e4aaf7a3b86944
 }
