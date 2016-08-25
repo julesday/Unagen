@@ -9,7 +9,7 @@
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="css/app.css"/>
     <script src="js/app.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!--<link rel="stylesheet" type="text/css" href="css/index.css">-->
     <link rel="stylesheet" type="text/css" href="css/texting.css">
     <script src="js/texting.js"></script>
 
@@ -40,23 +40,14 @@
 </div>
 <!-- Nav end -->
 <div class="container-fluid">
-    <img src="img/unaGenLogo.png"/>
-            <h2>Unagen</h2>
-            <div id="wrapper">
-                <div id="menu">
-                    <p class="welcome">Welcome, <b></b></p>
-                    <p class="logout"><a id="exit" href="#">Exit Chat</a></p>
-                    <div style="clear:both"></div>
-                </div>
+    <img id="logo" src="img/unaGenLogo.png"/>
 
-                <div id="chatbox"></div>
+    <div id="chatbox"></div>
+    <div id="input-grp" class="input-group">
+        <input id="userMsg" type="text" class="form-control" placeholder="Send a message" aria-describedby="basic-addon2">
+        <span class="input-group-addon" id="submitMsg">Send</span>
+    </div>
 
-                <form name="message" action="">
-                    <input name="usermsg" type="text" id="usermsg" size="63"/>
-
-                </form>
-                <button name="submitmsg" type="submit" id="submitmsg" value="Send">Send</button>
-            </div>
 </div>
 
 </body>
