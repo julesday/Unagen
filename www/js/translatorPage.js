@@ -1,5 +1,6 @@
 (function () {
   var translatorList = [
+    "Aaron Armstrong",
     "Translator Test",
     "Andrew Ramirez",
     "Kirk Floyd",
