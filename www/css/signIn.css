@@ -24,13 +24,13 @@ h2{
 button{
 	width: 35%;
 	height: 50px;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 a{
-	font-size: 20px;
+	font-size: 30px;
 }
 
-.container-fluid{
-	margin-top: 200px;
+.container-fluid img{
+	margin-top: 170px;
 }
