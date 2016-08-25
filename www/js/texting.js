@@ -1,21 +1,31 @@
-var chat = "<b>Translator:</b> Hi, My name is Aaron, How may I help you?";
-$(document).ready(function(){
-	$("#chatbox").html(chat);
-//If user submits the form
-	$("#submitmsg").click(function(){	
-		var clientmsg = $("#usermsg").val();
+var chat = "<span class='message'><b>Translator:</b> Hi, My name is Aaron, How may I help you?</span>";
+var responses = {
+  "hello": "How can I help you?",
+  "I need a translation" : "No problem"
+};
 
-			chat += "<br>"
-			chat += "Me: "
-			chat += clientmsg
-			switch(clientmsg){
-				case "Hi Aaron, I was wondering why these Americans keep on telling me to 'break my leg' before my presentation":
-				chat += "<br>"
-				chat += "Translator: to 'break a leg' is a common phrase used in the united states that means good luck"	
-				}
-		
-		$("#chatbox").html(chat);
-		return false;
-	});
- 
+
+$(document).ready(function () {
+  $("#chatbox").html(chat);
+//If user submits the form
+  $("#submitMsg").click(function () {
+    var clientMsg = $('#userMsg').val();
+    if (clientMsg !== "") {
+      $('#userMsg').val("");
+      var me = "<span><b>Me</b>: </span>";
+      var trans = "<span><b>Translator</b>: </span>";
+      chat += "<br>";
+      chat += "<span class='message'>" + me + clientMsg + "</span>";
+      switch (clientMsg) {
+        case "Hi Aaron, I was wondering why these Americans keep on telling me to 'break my leg' before my presentation":
+          chat += "<br>";
+          chat += "<span class='message'>" + trans + "is a common phrase used in the united states that means good luck</span>";
+          break;
+        case "hello":
+      }
+
+      $("#chatbox").html(chat);
+    }
+  });
+
 });

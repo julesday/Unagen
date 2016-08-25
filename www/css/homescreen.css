@@ -16,3 +16,10 @@ h3{
 	font-family: Verdana;
 	color: #fff;
 }
+
+#logo {
+    height: 150px;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}

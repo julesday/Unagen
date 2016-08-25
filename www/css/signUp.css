@@ -10,13 +10,20 @@
 	background: rgba(28, 42, 55, 0.7);
 }
 
-.row input {
-	height: 40px;
-	width: 70%;
-	font-size: 30px;
-	margin-bottom: 13px;
-	background-color: #fff;
-	padding-left: 10px;
+input {
+    width: 70%;
+    height: 35px;
+    padding: 15px;
+    margin: 5px;
+}
+#lang-btn-w {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+#select-language-btn {
+    width: 100%;
 }
 
 #select-language{
@@ -40,15 +47,14 @@ label, h2{
 	color: red;
 }
 
-button{
-	width: 35%;
-	height: 50px;
-	font-size: 30px;
-	margin-top: : 5px;
+#submit-btn {
+    margin-top: 10px;
+    width : 40%;
 }
 
-
-
-.container-fluid img{
-	margin-top: 150px;
+#logo {
+    height: 150px;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 20px;
 }

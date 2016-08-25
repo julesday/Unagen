@@ -1,11 +1,8 @@
-.input input[type="text"],.input input[type="password"]{
-	height: 75px;
-	width: 70%;
-	font-size: 40px;
-	margin-bottom: 28px;
-	background-color: #fff;
-	padding-left: 3px;
-	opacity: 1;
+input {
+    width: 70%;
+    height: 35px;
+    padding: 15px;
+    margin: 5px;
 }
 
 .btn-primary{
@@ -17,20 +14,21 @@ h2{
 	color: #fff;
 }
 
-.input{
-	opacity: 1.0;
-}
-
-button{
-	width: 35%;
-	height: 50px;
-	font-size: 30px;
-}
-
-a{
-	font-size: 30px;
+#submit-btn {
+    margin-top: 10px;
+    width : 40%;
 }
 
 .container-fluid img{
-	margin-top: 170px;
+	padding-top: 50px;
+}
+
+#logo {
+    height: 150px;
+    width: 100%;
+}
+
+#signUp {
+    color: #fff;
+    line-height: 200%;
 }
