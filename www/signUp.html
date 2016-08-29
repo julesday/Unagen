@@ -13,54 +13,54 @@
     <link rel="stylesheet" type="text/css" href="css/signUp.css"/>
 </head>
 <body>
-<!-- Nav start -->
-<nav id="nav-bar" class="navbar navbar-fixed-top">
-    <div class="container">
-        <a href="#" class="navbar-brand" data-toggle="collapse" data-target="#dropdown">UnaGen</a>
+    <!-- Nav start -->
+    <nav id="nav-bar" class="navbar navbar-fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand" data-toggle="collapse" data-target="#dropdown">UnaGen</a>
+        </div>
+    </nav>
+    <div id="dropdown" class="collapse">
+        <a href="homescreen.html">
+            <div class="dropdown-option">Home</div>
+        </a>
+        <a href="translatorPage.html">
+            <div class="dropdown-option">Translators</div>
+        </a>
+        <a href="#texting.html">
+            <div class="dropdown-option">Texting</div>
+        </a>
+        <a href="setting.html">
+            <div class="dropdown-option">Settings</div>
+        </a>
+        <a href="#">
+            <div class="dropdown-option">Contact Us</div>
+        </a>
     </div>
-</nav>
-<div id="dropdown" class="collapse">
-    <a href="homescreen.html">
-        <div class="dropdown-option">Home</div>
-    </a>
-    <a href="translatorPage.html">
-        <div class="dropdown-option">Translators</div>
-    </a>
-    <a href="#texting.html">
-        <div class="dropdown-option">Texting</div>
-    </a>
-    <a href="setting.html">
-        <div class="dropdown-option">Settings</div>
-    </a>
-    <a href="#">
-        <div class="dropdown-option">Contact Us</div>
-    </a>
-</div>
-<!-- Nav end -->
-<div class="container-fluid">
-    <img id="logo" src="img/unaGenLogo.png">
-    <form>
-        <div class="row">
-            <div class="col-md-8">
-                <input type="text" name="firstname" id="firstname" required="required" placeholder="First Name"><br>
+    <!-- Nav end -->
+    <div class="container-fluid">
+        <img id="logo" src="img/unaGenLogo.png">
+        <form>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" name="firstname" id="firstname" required="required" placeholder="First Name"><br>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-                <input type="text" name="lastname" id="lastname" required="required"
-                       placeholder="Last Name"><br>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" name="lastname" id="lastname" required="required"
+                    placeholder="Last Name"><br>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-md-2"></div>
-            <div class="col-md-8">
-                <input type="text" name="email" id="email" placeholder="Email"><br>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-8">
+                    <input type="text" name="email" id="email" placeholder="Email"><br>
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div id="lang-btn-w" class="btn-group">
-                <button id="select-language-btn" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
+            <div class="row">
+                <div id="lang-btn-w" class="btn-group">
+                    <button id="select-language-btn" type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
                     Language <span class="caret"></span>
                 </button>
                 <ul class="dropdown-menu">
@@ -73,13 +73,13 @@
         <div class="row">
             <div class="col-md-8">
                 <input type="password" name="password" id="password" required="required"
-                       placeholder="Password"><br>
+                placeholder="Password"><br>
             </div>
         </div>
         <div class="row">
             <div class="col-md-8">
                 <input type="password" name="password2" id="password2" placeholder="Confirm Password"
-                       required="required" onkeyup="checkPass(); return false;"><br>
+                required="required" onkeyup="checkPass(); return false;"><br>
             </div>
         </div>
     </form>
