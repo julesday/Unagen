@@ -22,6 +22,13 @@ $(document).ready(function () {
           chat += "<span class='message'>" + trans + "is a common phrase used in the united states that means good luck</span>";
           break;
         case "hello":
+          chat += "<br>"
+          chat += "<span class='message'>" + trans + "hello, how may I help you</span>";
+          break;
+        default:
+          chat += "<br>";
+          chat += "<span class='message'>" + trans + "is a common phrase used in the united states that means good luck</span>";
+          break;
       }
 
       $("#chatbox").html(chat);
