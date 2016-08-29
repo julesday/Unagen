@@ -21,6 +21,8 @@ h2{
 
 .container-fluid img{
 	padding-top: 50px;
+    border-top: 150px;
+    width: 60%;
 }
 
 #logo {
