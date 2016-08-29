@@ -1,14 +1,9 @@
-.container-fluid{
-    text-align: center;
-    padding: 60px;
-    background: url("../img/planet.jpg") no-repeat center center fixed;
-}
 h2{
 	color: white;
 }
 h4{
 	color: white;
 }
-.btn, .btn-primary{
+.btn, .btn-primary, .dropdown-menu{
 	text-align: center;
 }
