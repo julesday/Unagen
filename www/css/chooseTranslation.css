@@ -1,6 +1,6 @@
 .container-fluid{
     text-align: center;
-    padding: 60px;
+    /*padding: 60px;*/
     background: url("../img/planet.jpg") no-repeat center center fixed;
 }
 h2{
@@ -12,3 +12,7 @@ h4{
 .btn, .btn-primary{
 	text-align: center;
 }
+
+#lang-dd-ul {
+ 	left:30%; 
+ }
