@@ -7,3 +7,9 @@ body{
 	-moz-background-size: cover;
 	background-size: cover;
 }
+
+.container-fluid img{
+	padding-top: 50px;
+    border-top: 150px;
+    width: 60%;
+}
