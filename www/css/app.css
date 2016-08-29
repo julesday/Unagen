@@ -25,6 +25,7 @@
 }
 
 #dropdown {
+    margin-top: 53px;
     position:fixed;
     /*height: 100vh;*/
     left: 0;
