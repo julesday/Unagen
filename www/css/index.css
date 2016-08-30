@@ -2,14 +2,21 @@ body{
 	margin: 0 !important;
 	height:inherit;
 	width:inherit;
-	background: url("../img/planet.jpg") no-repeat center center fixed;
+	/*background: url("../img/planet.jpg") no-repeat center center fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
+	background-color: #ffc966
 }
 
 .container-fluid img{
 	padding-top: 50px;
     border-top: 150px;
     width: 60%;
+}
+.log-in{
+	padding:20px;
+}
+.log-btn{
+	font-size: 25px;
 }
