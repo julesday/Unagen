@@ -1,7 +1,6 @@
 .container-fluid{
     text-align: center;
     /*padding: 60px;*/
-    background: url("../img/planet.jpg") no-repeat center center fixed;
 }
 h2{
 	font-family: Verdana;
