@@ -5,12 +5,15 @@
 
 div{
 	font-size: 18px;
+	
 }
 .row{
 	height: 100px;
 	padding-bottom:15px;
 	border-bottom: 5px;
 	box-shadow: 0px 2px 3px #888888;
+	background-color: #ffc966;
+	color: green;
 }
 
 .profilePic {
@@ -18,3 +21,13 @@ div{
     height: 90%;
     width: 80px;
 }
+#translatorList{
+	color: green;
+}
+
+.container-fluid {
+    min-height:100vh;
+   /* background-color: white; */
+    height:100%;
+    margin-top: 50px;
+    text-align: center;

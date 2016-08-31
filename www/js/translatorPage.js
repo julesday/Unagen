@@ -45,11 +45,15 @@
       '<img class = "profilePic" src=' + data.imgSrc + '>' +
       '</div>' +
       '<div class="col-xs-4 name">' +
-      '<a href=' + data.translatorLink + '>' + data.translatorName + '</a>' +
+      '<a href="translatorProfile.html" onclick="showTranslator(data.translatorName, data.imgSrc, data.status)" </a>' +
       '</div>' +
       '<div class="col-xs-4 status">' +
       data.status +
       '</div>'
     );
+  }
+
+  function showTranslator(name, imgSrc, status) {
+
   }
 })();
