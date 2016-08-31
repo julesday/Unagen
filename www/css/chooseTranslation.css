@@ -14,3 +14,9 @@ h4{
 #lang-dd-ul {
  	left:30%; 
  }
+ 
+ #logo {
+    height: 150px;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 20px;
