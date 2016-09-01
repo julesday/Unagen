@@ -44,8 +44,8 @@ a:hover {
 #logo {
     height: 100px;
     width: 70%;
-    padding-top: 50px;
-    margin-bottom: 20px;
+    /*padding-top: 50px;*/
+    margin-top: 50px;
 }
 
 #input-grp {
