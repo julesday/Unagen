@@ -2,11 +2,11 @@ body{
 	margin: 0 !important;
 	height:inherit;
 	width:inherit;
-	/*background: url("../img/planet.jpg") no-repeat center center fixed;*/
+	background: url("http://www.psdgraphics.com/wp-content/uploads/2012/07/soft-yellow-waves.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
-	background-color: #ffc966
+	
 }
 
 .container-fluid img{
