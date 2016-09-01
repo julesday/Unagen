@@ -21,7 +21,6 @@
     "https://s-media-cache-ak0.pinimg.com/236x/08/22/00/08220004c4c9199acf284a3e439ec0d6.jpg",
     "http://previews.123rf.com/images/cattallina/cattallina1505/cattallina150500013/40291578-lioness-head-black-and-white-profile-simple-vector-design-Stock-Vector.jpg",
     "https://s-media-cache-ak0.pinimg.com/236x/b3/ef/44/b3ef441aa93e0026a0dd0e7f795b6130.jpg",
-    "http://www.pd4pic.com/images800_/black-simple-small-outline-drawn-drawing-sketch.png",
     "http://img11.deviantart.net/609f/i/2009/359/9/3/flower_sketch_by_mubibuddy.jpg",
     "http://cliparts.co/cliparts/8Tx/4R9/8Tx4R9pTp.jpg",
     "http://cdn.litlepups.net/2016/04/19/small_drawings-art-drawings-of-birds-sparrow-drawings-drawing-ideas.jpg",
@@ -45,9 +44,9 @@
       '<img class = "profilePic" src=' + data.imgSrc + '>' +
       '</div>' +
       '<div class="col-xs-4 name">' +
-       '<a href="translatorProfile.html" '+ data.translatorLink + '>' + data.translatorName + '</a>' +
+       '<a class="translatorName" href="translatorProfile.html"><span>' + data.translatorName + '</span></a>' +
       '</div>' +
-      '<div class="col-xs-4 status">' +
+      '<div class="status col-xs-4 status">' +
       data.status +
       '</div>'
     );
