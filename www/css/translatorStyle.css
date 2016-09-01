@@ -20,6 +20,7 @@ div{
     margin-top: 10px;
     height: 90%;
     width: 80px;
+    border-radius: 50%;
 }
 #translatorList{
 	color: green;

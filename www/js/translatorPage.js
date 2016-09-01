@@ -45,7 +45,7 @@
       '<img class = "profilePic" src=' + data.imgSrc + '>' +
       '</div>' +
       '<div class="col-xs-4 name">' +
-      '<a href="translatorProfile.html" onclick="showTranslator(data.translatorName, data.imgSrc, data.status)" </a>' +
+       '<a href="translatorProfile.html" '+ data.translatorLink + '>' + data.translatorName + '</a>' +
       '</div>' +
       '<div class="col-xs-4 status">' +
       data.status +
