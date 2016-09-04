@@ -1,19 +1,19 @@
 (function () {
   var translatorList = [
     "Aaron Armstrong",
-    "Translator Test",
-    "Andrew Ramirez",
-    "Kirk Floyd",
-    "Hamdan Jawad",
-    "Adriel Martinez",
-    "Micheal Jackson",
-    "Hazell Vasquez",
-    "Jules Day",
-    "Sade Mitchell",
-    "Crystal Lastname",
-    "Shanell Lastname",
-    "New Name",
-    "New Person"
+    // "Translator Test",
+    // "Andrew Ramirez",
+    // "Kirk Floyd",
+    // "Hamdan Jawad",
+    // "Adriel Martinez",
+    // "Micheal Jackson",
+    // "Hazell Vasquez",
+    // "Jules Day",
+    // "Sade Mitchell",
+    // "Crystal Lastname",
+    // "Shanell Lastname",
+    // "New Name",
+    // "New Person"
 
   ];
 
