@@ -63,6 +63,6 @@ a:hover {
     height: 10px;
 }
 
-.add-text{
-    height: ;
+#add-text{
+    position: fixed;
 }
