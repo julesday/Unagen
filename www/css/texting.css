@@ -21,7 +21,7 @@ a:hover {
 
 #chatbox {
     background: #fff;
-    top: 150px;
+    top: 180px;
     bottom: 50px;
     position: fixed;
     width: 90%;
@@ -43,7 +43,7 @@ a:hover {
     height: 100px;
     width: 70%;
     /*padding-top: 50px;*/
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #input-grp {
@@ -65,4 +65,8 @@ a:hover {
 
 #add-text{
     position: fixed;
+}
+
+#logOut{
+    text-align: left;
 }

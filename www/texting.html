@@ -14,47 +14,46 @@
     <script src="js/texting.js"></script>
 </head>
 <body>
-<!-- Nav start -->
-<nav id="nav-bar" class="navbar navbar-fixed-top">
-    <div class="container">
-        <a href="#" class="navbar-brand" data-toggle="collapse" data-target="#dropdown">UnaGen</a>
+    <!-- Nav start -->
+    <nav id="nav-bar" class="navbar navbar-fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand" data-toggle="collapse" data-target="#dropdown">UnaGen</a>
+        </div>
+    </nav>
+    <div id="dropdown" class="collapse">
+        <a href="#">
+            <div class="dropdown-option">Filler</div>
+        </a>
+        <a href="homescreen.html">
+            <div class="dropdown-option">Home</div>
+        </a>
+        <a href="translatorPage.html">
+            <div class="dropdown-option">Translators</div>
+        </a>
+        <a href="#">
+            <div class="dropdown-option">Texting</div>
+        </a>
+        <a href="settings.html">
+            <div class="dropdown-option">Settings</div>
+        </a>
+        <a href="https://www.facebook.com/Unagen-270322983326174/?ref=bookmarks">
+            <div class="dropdown-option">Contact Us</div>
+        </a>
+        <a href="index.html">
+            <div class="dropdown-option">Log Out</div>
+        </a>
     </div>
-</nav>
-<div id="dropdown" class="collapse">
-    <a href="#">
-        <div class="dropdown-option">Filler</div>
-    </a>
-    <a href="homescreen.html">
-        <div class="dropdown-option">Home</div>
-    </a>
-    <a href="translatorPage.html">
-        <div class="dropdown-option">Translators</div>
-    </a>
-    <a href="#">
-        <div class="dropdown-option">Texting</div>
-    </a>
-    <a href="settings.html">
-        <div class="dropdown-option">Settings</div>
-    </a>
-    <a href="https://www.facebook.com/Unagen-270322983326174/?ref=bookmarks">
-        <div class="dropdown-option">Contact Us</div>
-    </a>
-    <a href="index.html">
-        <div class="dropdown-option">Log Out</div>
-    </a>
-</div>
-<!-- Nav end -->
-<div class="container-fluid">
-    <img id="logo" src="img/unaGenLogo.png"/>
-
-    <div id="chatbox"></div>
-    <div id="input-grp" class="input-group">
-        <input id="userMsg" type="text" class="form-control" placeholder="Send a message" aria-describedby="basic-addon2">
-        <span class="input-group-addon" id="submitMsg">Send</span>
-        <button id="add-text" onclick="add('Hi Aaron, I was wondering why my co-workers keep on telling me to break my leg before my presentation')">o</button>
+    <!-- Nav end -->
+    <div class="container-fluid">
+        <img id="logo" src="img/unaGenLogo.png"/> <br>
+        <a href="#" id="logOut">End Session</a>
+        <div id="chatbox"></div>
+        <div id="input-grp" class="input-group">
+            <input id="userMsg" type="text" class="form-control" placeholder="Send a message" aria-describedby="basic-addon2">
+            <span class="input-group-addon" id="submitMsg">Send</span>
+            <button id="add-text" onclick="add('Hi Aaron, I was wondering why my co-workers keep on telling me to break my leg before my presentation')">o</button>
+        </div>
     </div>
-
-</div>
 
 </body>
 </html>

@@ -20,7 +20,7 @@ $(document).ready(function () {
 
         case "hello":
           chat += "<br>"
-          chat += "<span class='message'>" + trans + "hello, how may I help you</span>";
+          chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
           break;
         case "no thank you":
           chat += "<br>"
@@ -38,6 +38,15 @@ $(document).ready(function () {
           chat += "<br>"
           chat += "<span class='message'>" +trans + "Okay, your session is now over."
           break;
+        case "yes":
+          chat += "<br>"
+          chat += "<span class='message'>" +trans + "What else could I help you with."
+          break;
+        case "Yes":
+          chat += "<br>"
+          chat += "<span class='message'>" +trans + "What else could I help you with."
+          break;
+
         default:
           chat += "<br>";
           chat += "<span class='message'>" + trans + "To break a leg is a common phrase used in the united states that means good luck. Is there anything else I may help you with?</span>";
