@@ -22,6 +22,18 @@ $(document).ready(function () {
           chat += "<br>"
           chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
           break;
+        case "Hello":
+          chat += "<br>"
+          chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
+          break;
+        case "hi":
+          chat += "<br>"
+          chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
+          break;
+        case "Hi":
+          chat += "<br>"
+          chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
+          break;
         case "no thank you":
           chat += "<br>"
           chat += "<span class='message'>" +trans + "Okay, your session is now over."
@@ -59,9 +71,6 @@ $(document).ready(function () {
 
 });
 
-//$('#add-text').click(function() {
-//    $('#userMsg').val('Hi Aaron, I was wondering why my co-workers keep on telling me to break my leg before my presentation');
-//});
 
 function add(text){
     var TheTextBox = document.getElementById("userMsg");
