@@ -36,19 +36,19 @@ $(document).ready(function () {
           break;
         case "no":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over"
+          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over."
           break;
         case "No":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over"
+          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over."
           break;
         case "no, gracias":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over"
+          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over."
           break;
         case "No, gracias":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over"
+          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over."
           break;
         case "si":
           chat += "<br>"
