@@ -1,4 +1,4 @@
-var chat = "<span class='message'><b>Translator:</b> Hi, My name is Aaron, How may I help you? Please state your goal for this session.</span>";
+var chat = "<span class='message'><b>Translator:</b> Hi, My name is Aaron, How may I help you? Please state your goal for this session. Hola, Mi nombre es Aaron, ¿En qué puedo ayudarle? Por favor, indique su objetivo para esta sesión.</span>";
 var responses = {
   "hello": "How can I help you?",
   "I need a translation" : "No problem"
@@ -20,48 +20,48 @@ $(document).ready(function () {
 
         case "hello":
           chat += "<br>"
-          chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
+          chat += "<span class='message'>" + trans + "¿Hola, como puedo ayudarte?</span>";
           break;
         case "Hello":
           chat += "<br>"
-          chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
+          chat += "<span class='message'>" + trans + "¿Hola, como puedo ayudarte?</span>";
           break;
         case "hi":
           chat += "<br>"
-          chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
+          chat += "<span class='message'>" + trans + "¿Hola, como puedo ayudarte?</span>";
           break;
         case "Hi":
           chat += "<br>"
-          chat += "<span class='message'>" + trans + "hello, how may I help you?</span>";
+          chat += "<span class='message'>" + trans + "¿Hola, como puedo ayudarte?</span>";
           break;
-        case "no thank you":
+        case "no":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "Okay, your session is now over."
+          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over"
           break;
-        case "No thank you":
+        case "No":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "Okay, your session is now over."
+          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over"
           break;
-        case "no, thank you":
+        case "no, gracias":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "Okay, your session is now over."
+          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over"
           break;
-        case "No, thank you":
+        case "No, gracias":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "Okay, your session is now over."
+          chat += "<span class='message'>" +trans + "Está bien, su sesión ha terminado. Your session is now over"
           break;
-        case "yes":
+        case "si":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "What else could I help you with."
+          chat += "<span class='message'>" +trans + "¿Qué más puedo ayudarle?"
           break;
-        case "Yes":
+        case "Si":
           chat += "<br>"
-          chat += "<span class='message'>" +trans + "What else could I help you with."
+          chat += "<span class='message'>" +trans + "¿Qué más puedo ayudarle?"
           break;
 
         default:
           chat += "<br>";
-          chat += "<span class='message'>" + trans + "To break a leg is a common phrase used in the united states that means good luck. Is there anything else I may help you with?</span>";
+          chat += "<span class='message'>" + trans + "break a leg es una frase común que se utiliza en los Estados Unidos que significa buena suerte. ¿Hay algo más en lo que pueda ayudar?</span>";
           break;
       }
 
