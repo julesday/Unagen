@@ -40,7 +40,7 @@ div{
 
 .name span {
   padding-top: 30px;
-  color: red;
+  color: blue;
   height:100px;
   display: inline-block;
   vertical-align: middle;
@@ -50,6 +50,15 @@ div{
 .status {
   padding-top: 30px;
   color: green;
+  height:100px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;  
+}
+
+.statusb {
+    padding-top: 30px;
+  color: red;
   height:100px;
   display: inline-block;
   vertical-align: middle;
